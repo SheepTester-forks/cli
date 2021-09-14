@@ -1,7 +1,7 @@
 {
   "version": "7.11.1",
-  "name": "npm",
-  "description": "a package manager for JavaScript",
+  "name": "npog",
+  "description": "a fork of npm but it installs dependencies globally",
   "keywords": [
     "install",
     "modules",
@@ -29,8 +29,7 @@
   },
   "main": "./lib/npm.js",
   "bin": {
-    "npm": "bin/npm-cli.js",
-    "npx": "bin/npx-cli.js"
+    "npog": "bin/npm-cli.js"
   },
   "exports": {
     ".": [
